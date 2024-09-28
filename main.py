@@ -1,7 +1,8 @@
 #import masodik
 #import hatodik
-import tizenegyedik
-import tizenhatodik
+#import tizenegyedik
+#import tizenhatodik
+import elagazasokminta
 
 
 #import negyedik
@@ -9,4 +10,15 @@ import tizenhatodik
 #negyedik.negyedikFeladat()
 #hatodik.hatodikFeladat()
 #tizenegyedik.tizenegyedikFeladat()
-tizenhatodik.tizenhatodikFeladat()
+#tizenhatodik.tizenhatodikFeladat()
+
+#elágazásdok
+elagazasokminta.masodik()
+
+    def masodik()
+    szam = int(input("Kérem adjon meg egy egész számot!"))
+    if (szam >= -9) and (szam <=9):
+        megelozo = szam - 1
+        rakovetkezo = szam + 1
+        rakovetkezo = szam + 1
+        print("A ta")
